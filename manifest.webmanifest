@@ -1,0 +1,12 @@
+{
+  "id": "./",
+  "name": "טרמפים נס הרים",
+  "short_name": "טרמפים נס הרים",
+  "lang": "he",
+  "dir": "rtl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#00796b"
+}
