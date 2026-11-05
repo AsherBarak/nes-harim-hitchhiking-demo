@@ -233,25 +233,25 @@ __d(function(g,r,i,a,m,e,d){var o=r(d[0]);Object.defineProperty(e,"__esModule",{
 __d(function(g,r,i,a,m,e,d){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var o=r(d[0]);class n extends o.NativeModule{async renderToImageAsync(n,t){throw new o.UnavailabilityError('expo-font','renderToImageAsync')}}e.default=(0,o.registerWebModule)(n,'ExpoFontUtils')},187,[90]);
 __d(function(g,r,i,a,m,e,d){Object.defineProperty(e,"__esModule",{value:!0}),e.useFonts=void 0;var n=r(d[0]),t=r(d[1]);function u(n){return'string'==typeof n?(0,t.isLoaded)(n):Object.keys(n).every(n=>(0,t.isLoaded)(n))}e.useFonts='undefined'==typeof window?function(n){return(0,t.loadAsync)(n),[!0,null]}:function(o){const[s,c]=(0,n.useState)(u(o)),[f,l]=(0,n.useState)(null);return(0,n.useEffect)(()=>{let n=!0;return(0,t.loadAsync)(o).then(()=>{n&&c(!0)}).catch(t=>{n&&l(t)}),()=>{n=!1}},[]),[s,f]}},188,[27,164]);
 __d(function(g,r,i,a,m,e,d){Object.defineProperty(e,"__esModule",{value:!0}),e.Assistant_400Regular=void 0;e.Assistant_400Regular=r(d[0])},189,[190]);
-__d(function(g,r,i,a,m,e,d){m.exports="/assets/node_modules/@expo-google-fonts/assistant/400Regular/Assistant_400Regular.2ed4e0a6b226edc6bbe27c05efcb592d.ttf"},190,[]);
+__d(function(g,r,i,a,m,e,d){m.exports="./assets/node_modules/@expo-google-fonts/assistant/400Regular/Assistant_400Regular.2ed4e0a6b226edc6bbe27c05efcb592d.ttf"},190,[]);
 __d(function(g,r,i,a,m,e,d){Object.defineProperty(e,"__esModule",{value:!0}),e.Assistant_500Medium=void 0;e.Assistant_500Medium=r(d[0])},191,[192]);
-__d(function(g,r,i,a,m,e,d){m.exports="/assets/node_modules/@expo-google-fonts/assistant/500Medium/Assistant_500Medium.a68168ad5752c5ea1aa7aa34cff41511.ttf"},192,[]);
+__d(function(g,r,i,a,m,e,d){m.exports="./assets/node_modules/@expo-google-fonts/assistant/500Medium/Assistant_500Medium.a68168ad5752c5ea1aa7aa34cff41511.ttf"},192,[]);
 __d(function(g,r,i,a,m,e,d){Object.defineProperty(e,"__esModule",{value:!0}),e.Assistant_600SemiBold=void 0;e.Assistant_600SemiBold=r(d[0])},193,[194]);
-__d(function(g,r,i,a,m,e,d){m.exports="/assets/node_modules/@expo-google-fonts/assistant/600SemiBold/Assistant_600SemiBold.09642089fc1a88b46fbcceb46082ff90.ttf"},194,[]);
+__d(function(g,r,i,a,m,e,d){m.exports="./assets/node_modules/@expo-google-fonts/assistant/600SemiBold/Assistant_600SemiBold.09642089fc1a88b46fbcceb46082ff90.ttf"},194,[]);
 __d(function(g,r,i,a,m,e,d){Object.defineProperty(e,"__esModule",{value:!0}),e.Assistant_700Bold=void 0;e.Assistant_700Bold=r(d[0])},195,[196]);
-__d(function(g,r,i,a,m,e,d){m.exports="/assets/node_modules/@expo-google-fonts/assistant/700Bold/Assistant_700Bold.07d4502c9dbbf0a37aed80a6e9b2379d.ttf"},196,[]);
+__d(function(g,r,i,a,m,e,d){m.exports="./assets/node_modules/@expo-google-fonts/assistant/700Bold/Assistant_700Bold.07d4502c9dbbf0a37aed80a6e9b2379d.ttf"},196,[]);
 __d(function(g,r,i,a,m,e,d){Object.defineProperty(e,"__esModule",{value:!0}),e.Assistant_800ExtraBold=void 0;e.Assistant_800ExtraBold=r(d[0])},197,[198]);
-__d(function(g,r,i,a,m,e,d){m.exports="/assets/node_modules/@expo-google-fonts/assistant/800ExtraBold/Assistant_800ExtraBold.4863dd7d50726148a95059f352a622f2.ttf"},198,[]);
+__d(function(g,r,i,a,m,e,d){m.exports="./assets/node_modules/@expo-google-fonts/assistant/800ExtraBold/Assistant_800ExtraBold.4863dd7d50726148a95059f352a622f2.ttf"},198,[]);
 __d(function(g,r,i,a,m,e,d){Object.defineProperty(e,"__esModule",{value:!0}),e.Rubik_400Regular=void 0;e.Rubik_400Regular=r(d[0])},199,[200]);
-__d(function(e,o,s,t,u,f,d){u.exports="/assets/node_modules/@expo-google-fonts/rubik/400Regular/Rubik_400Regular.77e1892c02dc223f0f258e5038423318.ttf"},200,[]);
+__d(function(e,o,s,t,u,f,d){u.exports="./assets/node_modules/@expo-google-fonts/rubik/400Regular/Rubik_400Regular.77e1892c02dc223f0f258e5038423318.ttf"},200,[]);
 __d(function(g,r,i,a,m,e,d){Object.defineProperty(e,"__esModule",{value:!0}),e.Rubik_500Medium=void 0;e.Rubik_500Medium=r(d[0])},201,[202]);
-__d(function(e,o,d,f,s,t,u){s.exports="/assets/node_modules/@expo-google-fonts/rubik/500Medium/Rubik_500Medium.b50cf80a20b522e81d3191ccfc6fb109.ttf"},202,[]);
+__d(function(e,o,d,f,s,t,u){s.exports="./assets/node_modules/@expo-google-fonts/rubik/500Medium/Rubik_500Medium.b50cf80a20b522e81d3191ccfc6fb109.ttf"},202,[]);
 __d(function(g,r,i,a,m,e,d){Object.defineProperty(e,"__esModule",{value:!0}),e.Rubik_600SemiBold=void 0;e.Rubik_600SemiBold=r(d[0])},203,[204]);
-__d(function(o,d,e,f,s,t,c){s.exports="/assets/node_modules/@expo-google-fonts/rubik/600SemiBold/Rubik_600SemiBold.5f5e8cf22017b0d39ccc641fd11d8b8d.ttf"},204,[]);
+__d(function(o,d,e,f,s,t,c){s.exports="./assets/node_modules/@expo-google-fonts/rubik/600SemiBold/Rubik_600SemiBold.5f5e8cf22017b0d39ccc641fd11d8b8d.ttf"},204,[]);
 __d(function(g,r,i,a,m,e,d){Object.defineProperty(e,"__esModule",{value:!0}),e.Rubik_700Bold=void 0;e.Rubik_700Bold=r(d[0])},205,[206]);
-__d(function(o,e,d,s,t,f,b){t.exports="/assets/node_modules/@expo-google-fonts/rubik/700Bold/Rubik_700Bold.6f755d180caef859e79b956cbc98a115.ttf"},206,[]);
+__d(function(o,e,d,s,t,f,b){t.exports="./assets/node_modules/@expo-google-fonts/rubik/700Bold/Rubik_700Bold.6f755d180caef859e79b956cbc98a115.ttf"},206,[]);
 __d(function(g,r,i,a,m,e,d){Object.defineProperty(e,"__esModule",{value:!0}),e.Rubik_800ExtraBold=void 0;e.Rubik_800ExtraBold=r(d[0])},207,[208]);
-__d(function(o,d,t,a,e,f,s){e.exports="/assets/node_modules/@expo-google-fonts/rubik/800ExtraBold/Rubik_800ExtraBold.857f003f083bdc2bfad69dbc61a8a883.ttf"},208,[]);
+__d(function(o,d,t,a,e,f,s){e.exports="./assets/node_modules/@expo-google-fonts/rubik/800ExtraBold/Rubik_800ExtraBold.857f003f083bdc2bfad69dbc61a8a883.ttf"},208,[]);
 __d(function(g,r,i,a,m,e,d){'use strict';m.exports=r(d[0])},209,[210]);
 __d(function(g,r,i,a,m,e,d){
 /**
